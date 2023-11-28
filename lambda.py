@@ -9,7 +9,7 @@ def lambda_handler(event, context):
     # TODO implement
     print('event ' , json.dumps(event))
     
-
+    print('updates')
     method = event['httpMethod']
     para = event['pathParameters']
     
